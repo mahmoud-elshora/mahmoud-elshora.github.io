@@ -7,22 +7,35 @@
 ## 📁 هيكل المشروع
 
 ```
-wa3yna-website/
+perfect claude v9/
 │
 ├── index.html                 ← الصفحة الرئيسية
+├── styles.css                 ← تنسيق الصفحة الرئيسية
+├── script.js                  ← منطق الصفحة الرئيسية
 │
-├── pages/                     ← الصفحات الفرعية (11 صفحة)
+├── pages/                     ← الصفحات الفرعية (15 صفحة)
 │   ├── initiative.html        ← مبادرة وعينا
 │   ├── activities.html        ← الأنشطة
 │   ├── projects.html          ← المشاريع والابتكارات
 │   ├── cv.html                ← السيرة الذاتية
 │   ├── skills.html            ← المهارات
-│   ├── numbers.html           ← الأرقام والإحصائيات
+│   ├── achivements.html       ← الأرقام والإحصائيات
 │   ├── stats.html             ← الإحصائيات التفصيلية
 │   ├── blog.html              ← المدونة
 │   ├── blog-post.html         ← قالب مقال
+│   └── community.html         ← المجتمع
+│   └── community-post.html    ← منشوارات المجتمع
 │   ├── testimonials.html      ← الشهادات والآراء
 │   └── contact.html           ← تواصل معنا
+│   └── login.html             ← للوصول لملف الادمين
+│   └── admin.html             ← للتحكم بالمقالات والشهادات 
+│ 
+├── assets/                     ← كل الملفات والصور المساعدة
+│   ├── images        ← لكل الصور
+│   ├── other       ← احتياطا
+│ 
+├── node_modules/                     ← يحتوي علي كم كبير من المجلدات
+│ 
 │
 ├── styles/                    ← ملفات CSS
 │   ├── main.css               ← 🎨 CSS المشترك (variables + base)
@@ -30,6 +43,7 @@ wa3yna-website/
 │   ├── activities.css         ← برتقالي نيون + ذهبي
 │   ├── projects.css           ← بنفسجي + وردي
 │   └── pages.css              ← CSS بقية الصفحات (cv/blog/contact...)
+│   └── pages-common.css       ← ملف مساعد لكل صفحة
 │
 ├── scripts/                   ← ملفات JavaScript
 │   ├── components.js          ← ⚡ JS المشترك (nav + particles + theme...)
@@ -38,15 +52,17 @@ wa3yna-website/
 ├── backend/                   ← 🖥️ الخادم (Backend)
 │   ├── server.js              ← Express API server
 │   └── seed.js                ← بيانات تجريبية
+│   
+├──── data/                      ← 📦 تم الاستغناء عنه لاستخدام مونجو وهو موجدو في مجلد الباك اند احتياطا
+│   ├── 
 │
-├── data/                      ← 📦 قاعدة البيانات (JSON)
-│   ├── contacts.json
-│   ├── testimonials.json
-│   ├── posts.json
-│   └── comments.json
-│
+├── package-lock.json
 ├── package.json
+├── README-MONGODB.md
 └── README.md
+└── robots.txt
+└── sitemap.xml
+└── .gitignore
 ```
 
 ---
