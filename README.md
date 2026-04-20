@@ -63,6 +63,7 @@ perfect claude v9/
 └── robots.txt
 └── sitemap.xml
 └── .gitignore
+└── .env
 ```
 
 ---
