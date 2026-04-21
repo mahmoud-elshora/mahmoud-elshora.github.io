@@ -50,8 +50,8 @@ const FOOTER_HTML = `
     </div>
     <p class="footer-tagline">بصوتنا نقرر • بأيدينا نغير</p>
     <div class="footer-links">
-      <a href="mailto:1mahmoudelshora1@gmail.com"><i class="fas fa-envelope"></i></a>
-      <a href="https://wa.link/ez20q4" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="contact.html"><i class="fas fa-envelope"></i></a>
+      <a href="https://wa.link/hpdmcn" target="_blank"><i class="fab fa-whatsapp"></i></a>
       <a href="https://sites.google.com/view/wa3yna/الصفحة-الرئيسية" target="_blank"><i class="fas fa-globe"></i></a>
     </div>
     <p class="footer-copy">© 2025 محمود أحمد الشوري - جميع الحقوق محفوظة</p>

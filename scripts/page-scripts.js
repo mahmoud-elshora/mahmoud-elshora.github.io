@@ -108,7 +108,7 @@ function initCvPage() {
   window.requestCv = function() {
     const sub  = encodeURIComponent('طلب السيرة الذاتية الكاملة');
     const body = encodeURIComponent('مرحباً محمود،\nأرجو إرسال السيرة الذاتية الكاملة.\nشكراً.');
-    window.location.href = `mailto:1mahmoudelshora1@gmail.com?subject=${sub}&body=${body}`;
+    window.location.href = `contact.html`;
   };
 
   // Highlight current year in timeline
@@ -339,7 +339,7 @@ function initTestimonialsPage() {
   function fallbackMailto(data) {
     const sub  = encodeURIComponent(`شهادة من ${data.name}`);
     const body = encodeURIComponent(`الاسم: ${data.name}\nالصفة: ${data.role}\n\nالشهادة:\n${data.message}`);
-    window.location.href = `mailto:1mahmoudelshora1@gmail.com?subject=${sub}&body=${body}`;
+    window.location.href = `contact.html`;
     showToast('✅ جاري فتح البريد...');
   }
 
@@ -405,7 +405,7 @@ function initContactPage() {
   function fallbackContactMailto(data) {
     const sub  = encodeURIComponent(data.subject || 'رسالة عامة');
     const body = encodeURIComponent(`الاسم: ${data.name}\nالبريد: ${data.email}\nالهاتف: ${data.phone||'لم يُذكر'}\n\nالرسالة:\n${data.message}`);
-    window.location.href = `mailto:1mahmoudelshora1@gmail.com?subject=${sub}&body=${body}`;
+    window.location.href = `contact.html`;
     showToast('✅ جاري فتح البريد الإلكتروني...');
   }
 
