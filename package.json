@@ -1,0 +1,14 @@
+{
+  "name": "wa3yna-website",
+  "version": "1.0.0",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.22.1",
+    "mongodb": "^4.17.0"
+  }
+}
